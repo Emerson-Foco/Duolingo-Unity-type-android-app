@@ -1,0 +1,538 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 3
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 11
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 0
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_UseShadowmask: 1
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1001 &2021797986
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4879318449574857382, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: m_Name
+      value: All_Quiz
+      objectReference: {fileID: 0}
+    - target: {fileID: 7487269479230294493, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7487269479288778526, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7487269479356582068, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: m_text
+      value: "Quest\xE3o 136\r\n\r\nA bula de um antibi\xF3tico infantil, fabricado
+        na forma de xarope, recomenda que sejam ministrados, diariamente, no m\xE1ximo
+        500 mg desse medicamento para cada quilograma de massa do paciente. Um pediatra
+        prescreveu a dosagem m\xE1xima desse antibi\xF3tico para ser ministrada diariamente
+        a uma crian\xE7a de 20 kg pelo per\xEDodo de 5 dias. Esse medicamento pode
+        ser comprado em frascos de 10 mL, 50 mL, 100 mL, 250 mL e 500 mL. Os pais
+        dessa crian\xE7a decidiram comprar a quantidade exata de medicamento que
+        precisar\xE1 ser ministrada no tratamento, evitando a sobra de medicamento.
+        Considere que 1 g desse medicamento ocupe um volume de 1 cm\xB3.\r\n\r\nA
+        capacidade do frasco, em mililitro, que esses pais dever\xE3o comprar \xE9\r\n\r\n\r\nA)
+        10.\r\n\r\nB) 50.\r\n\r\nC) 100.\r\n\r\nD) 250.\r\n\r\nE) 500."
+      objectReference: {fileID: 0}
+    - target: {fileID: 7801214400672754914, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7801214400699793115, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: m_text
+      value: "Quest\xE3o 159\r\n\r\nAp\xF3s o F\xF3rum Nacional Contra a Pirataria
+        (FNCP) incluir a linha de autope\xE7as em campanha veiculada contra a falsifica\xE7\xE3o,
+        as ag\xEAncias fiscalizadoras divulgaram que os cinco principais produtos
+        de autope\xE7as falsificados s\xE3o: rolamento, pastilha de freio, caixa
+        de dire\xE7\xE3o, catalisador e amortecedor.\r\n\r\nDispon\xEDvel em: www.oficinabrasil.com.br.
+        Acesso em: 25 ago. 2014 (adaptado).\r\n\r\nAp\xF3s uma grande apreens\xE3o,
+        as pe\xE7as falsas foram cadastradas utilizando-se a codifica\xE7\xE3o:\r\n\r\n1:
+        rolamento, 2: pastilha de freio, 3: caixa de dire\xE7\xE3o, 4: catalisador
+        e 5: amortecedor.\r\n\r\nAo final obteve-se a sequ\xEAncia: 5, 4, 3, 2, 1,
+        2, 3, 4, 5, 4, 3, 2, 1, 2, 3, 4, 5, 4, 3, 2, 1, 2, 3, 4, ... que apresenta
+        um padr\xE3o de forma\xE7\xE3o que consiste na repeti\xE7\xE3o de um bloco
+        de n\xFAmeros. Essa sequ\xEAncia descreve a ordem em que os produtos apreendidos
+        foram cadastrados.\r\n\r\nO 2 015\xBA item cadastrado foi um(a)\r\n\r\n\r\nA)
+        rolamento.\r\n\r\nB) catalisador.\r\n\r\nC) amortecedor.\r\n\r\nD) pastilha
+        de freio.\r\n\r\nE) caixa de dire\xE7\xE3o."
+      objectReference: {fileID: 0}
+    - target: {fileID: 7801214400712452470, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7801214400740657992, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: m_text
+      value: "Quest\xE3o 156\r\n\r\nPara contratar tr\xEAs m\xE1quinas que far\xE3o
+        o reparo de vias rurais de um munic\xEDpio, a prefeitura elaborou um edital
+        que, entre outras cl\xE1usulas, previa:\r\n\r\n\u2022 Cada empresa interessada
+        s\xF3 pode cadastrar uma \xFAnica m\xE1quina para concorrer ao edital;\r\n\r\n\u2022
+        O total de recursos destinados para contratar o conjunto das tr\xEAs m\xE1quinas
+        \xE9 de R$ 31 000,00;\r\n\r\n\u2022 O valor a ser pago a cada empresa ser\xE1
+        inversamente proporcional \xE0 idade de uso da m\xE1quina cadastrada pela
+        empresa para o presente edital.\r\n\r\nAs tr\xEAs empresas vencedoras do
+        edital cadastraram m\xE1quinas com 2, 3 e 5 anos de idade de uso.\r\n\r\nQuanto
+        receber\xE1 a empresa que cadastrou a m\xE1quina com maior idade de uso?\r\n\r\n\r\nA)
+        R$ 3 100,00\r\n\r\nB) R$ 6 000,00\r\n\r\nC) R$ 6 200,00\r\n\r\nD) R$ 15 000,00\r\n\r\nE)
+        R$ 15 500,00"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7801214400766056817, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7801214400780390108, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7801214400804641933, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7801214400860396945, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: m_text
+      value: "Quest\xE3o 160\r\n\r\nDurante suas f\xE9rias, oito amigos, dos quais
+        dois s\xE3o canhotos, decidem realizar um torneio de v\xF4lei de praia. Eles
+        precisam formar quatro duplas para a realiza\xE7\xE3o do torneio. Nenhuma
+        dupla pode ser formada por dois jogadores canhotos.\r\n\r\nDe quantas maneiras
+        diferentes podem ser formadas essas quatro duplas?\r\n\r\n\r\nA) 69\r\n\r\nB)
+        70\r\n\r\nC) 90\r\n\r\nD) 104\r\n\r\nE) 105"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7801214400870923047, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: m_text
+      value: "Quest\xE3o 155\r\n\r\nTr\xEAs s\xF3cios resolveram fundar uma f\xE1brica.
+        O investimento inicial foi de R$ 1 000 000,00. E, independentemente do valor
+        que cada um investiu nesse primeiro momento, resolveram considerar que cada
+        um deles contribuiu com um ter\xE7o do investimento inicial. \r\nAlgum tempo
+        depois, um quarto s\xF3cio entrou para a sociedade, e os quatro, juntos,
+        investiram mais R$ 800 000,00 na f\xE1brica. Cada um deles contribuiu com
+        um quarto desse valor. Quando venderam a f\xE1brica, nenhum outro investimento
+        havia sido feito. Os s\xF3cios decidiram ent\xE3o dividir o montante de R$
+        1 800 000,00 obtido com a venda, de modo proporcional \xE0 quantia total
+        investida por cada s\xF3cio.\r\nQuais os valores mais pr\xF3ximos, em porcentagens,
+        correspondentes \xE0s parcelas financeiras que cada um dos tr\xEAs s\xF3cios
+        iniciais e o quarto s\xF3cio, respectivamente, receberam?\r\n\r\n\r\nA) 29,60
+        e 11,11.\r\n\r\nB) 28,70 e 13,89.\r\n\r\nC) 25,00 e 25,00.\r\n\r\nD) 18,52
+        e 11,11.\r\n\r\nE) 12,96 e 13,89."
+      objectReference: {fileID: 0}
+    - target: {fileID: 7801214400928414267, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7801214401250908444, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7801214401317781174, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: m_text
+      value: "Quest\xE3o 157\r\n\r\nSegundo o Instituto Brasileiro de Geografia e
+        Estat\xEDstica (IBGE), o rendimento m\xE9dio mensal dos trabalhadores brasileiros,
+        no ano 2000, era de R$ 1 250,00. J\xE1 o Censo 2010 mostrou que, em 2010,
+        esse valor teve um aumento de 7,2% em rela\xE7\xE3o a 2000. Esse mesmo instituto
+        projeta que, em 2020, o rendimento m\xE9dio mensal dos trabalhadores brasileiros
+        poder\xE1 ser 10% maior do que foi em 2010.\r\n\r\nIBGE. Censo 2010. Dispon\xEDvel
+        em: www.ibge.gov.br. Acesso em: 13 ago. 2012 (adaptado).\r\n\r\nSupondo que
+        as proje\xE7\xF5es do IBGE se realizem, o rendimento m\xE9dio mensal dos
+        brasileiros em 2020 ser\xE1 de\r\n\r\n\r\nA) R$ 1 340,00.\r\n\r\nB) R$ 1
+        349,00.\r\n\r\nC) R$ 1 375,00.\r\n\r\nD) R$ 1 465,00.\r\n\r\nE) R$ 1 474,00."
+      objectReference: {fileID: 0}
+    - target: {fileID: 7801214401391451378, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: m_text
+      value: "Quest\xE3o 165\r\n\r\nO preparador f\xEDsico de um time de basquete
+        disp\xF5e de um plantel de 20 jogadores, com m\xE9dia de altura igual a 1,80
+        m. No \xFAltimo treino antes da estreia em um campeonato, um dos jogadores
+        desfalcou o time em raz\xE3o de uma s\xE9ria contus\xE3o, for\xE7ando o t\xE9cnico
+        a contratar outro jogador para recompor o grupo.\r\n\r\nSe o novo jogador
+        \xE9 0,20 m mais baixo que o anterior, qual \xE9 a m\xE9dia de altura, em
+        metro, do novo grupo?\r\n\r\n\r\nA) 1,60\r\n\r\nB) 1,78\r\n\r\nC) 1,79\r\n\r\nD)
+        1,81\r\n\r\nE) 1,82"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7801214401458256728, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7801214401529665670, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7801214401897052782, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: m_text
+      value: "Quest\xE3o 141\r\n\r\nUma pessoa, que perdeu um objeto pessoal quando
+        visitou uma cidade, pretende divulgar nos meios de comunica\xE7\xE3o informa\xE7\xF5es
+        a respeito da perda desse objeto e de seu contato para eventual devolu\xE7\xE3o.
+        No entanto, ela lembra que, de acordo com o Art. 1 234 do C\xF3digo Civil,
+        poder\xE1 ter que pagar pelas despesas do transporte desse objeto at\xE9
+        sua cidade e poder\xE1 ter que recompensar a pessoa que lhe restituir o objeto
+        em, pelo menos, 5% do valor do objeto.\r\n\r\nEla sabe que o custo com transporte
+        ser\xE1 de um quinto do valor atual do objeto e, como ela tem muito interesse
+        em reav\xEA-lo, pretende ofertar o maior percentual poss\xEDvel de recompensa,
+        desde que o gasto total com as despesas n\xE3o ultrapasse o valor atual do
+        objeto.\r\n\r\nNessas condi\xE7\xF5es, o percentual sobre o valor do objeto,
+        dado como recompensa, que ela dever\xE1 ofertar \xE9 igual a\r\n\r\n\r\nA)
+        20%\r\n\r\nB) 25%\r\n\r\nC) 40%\r\n\r\nD) 60%\r\n\r\nE) 80%"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7801214401917654891, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: m_text
+      value: "Quest\xE3o 154\r\n\r\nUma pessoa se interessou em adquirir um produto
+        anunciado em uma loja. Negociou com o gerente e conseguiu compr\xE1-lo a
+        uma taxa de juros compostos de 1% ao m\xEAs. O primeiro pagamento ser\xE1
+        um m\xEAs ap\xF3s a aquisi\xE7\xE3o do produto, e no valor de R$ 202,00.
+        O segundo pagamento ser\xE1 efetuado um m\xEAs ap\xF3s o primeiro, e ter\xE1
+        o valor de R$ 204,02. Para concretizar a compra, o gerente emitir\xE1 uma
+        nota fiscal com o valor do produto \xE0 vista negociado com o cliente, correspondendo
+        ao financiamento aprovado.\r\n\r\nO valor \xE0 vista, em real, que dever\xE1
+        constar na nota fiscal \xE9 de\r\n\r\n\r\nA) 398,02.\r\n\r\nB) 400,00.\r\n\r\nC)
+        401,94.\r\n\r\nD) 404,00.\r\n\r\nE) 406,02."
+      objectReference: {fileID: 0}
+    - target: {fileID: 7801214401963482564, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7801214401985081537, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8639892434259086591, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: rightAnswer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8639892434550523247, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: rightAnswer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8639892434798187885, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: rightAnswer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8639892434988791593, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: rightAnswer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8639892434991162870, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: rightAnswer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8639892435336451086, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: rightAnswer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8639892435416916071, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: rightAnswer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8639892435445605787, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: rightAnswer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8639892435553587208, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: rightAnswer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8639892435788470604, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: rightAnswer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8639892435875548572, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: rightAnswer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750377431886285065, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750377431886285065, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 51.069695
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750377431886285065, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 134.65063
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750377431886285065, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -259.50354
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750377431886285065, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750377431886285065, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750377431886285065, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750377431886285065, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750377431886285065, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750377431886285065, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750377431886285065, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8956662000224257683, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: rightAnswer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8956662002305127412, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: rightAnswer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9179678643191010047, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: rightAnswer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9179678643221042947, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: rightAnswer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9179678644166459059, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: rightAnswer
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 40d2d0f7ab4711544b953074156d82df, type: 3}
+--- !u!1 &2094374054
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2094374057}
+  - component: {fileID: 2094374056}
+  - component: {fileID: 2094374055}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2094374055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2094374054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &2094374056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2094374054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &2094374057
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2094374054}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

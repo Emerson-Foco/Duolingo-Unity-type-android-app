@@ -1,0 +1,665 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 3
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 11
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 0
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_UseShadowmask: 1
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1001 &89536815
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4879318449574857382, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: m_Name
+      value: All_Quiz
+      objectReference: {fileID: 0}
+    - target: {fileID: 7487269479230294493, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7487269479288778526, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7487269479356582068, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: m_text
+      value: "Quest\xE3o 01\r\n\r\n5 Ways Pets Can Improve Your Health\r\nA pet is
+        certainly a great friend. After a difficult day,\r\npet owners quite literally
+        feel the love.\r\nIn fact, for nearly 25 years, research has shown that\r\nliving
+        with pets provides certain health benefits. Pets help\r\nlower blood pressure
+        and lessen anxiety. They boost our\r\nimmunity. They can even help you get
+        dates.\r\nAllergy Fighters: A growing number of studies have\r\nsuggested
+        that kids growing up in a home with \u201Cfurred\r\nanimals\u201D will have
+        less risk of allergies and asthma.\r\nDate Magnets: Dogs are great for making
+        love\r\nconnections. Forget Internet matchmaking \u2014 a dog is a\r\nnatural
+        conversation starter.\r\nDogs for the Aged: Walking a dog or just caring
+        for\r\na pet \u2014 for elderly people who are able \u2014 can provide\r\nexercise
+        and companionship.\r\nGood for Mind and Soul: Like any enjoyable activity,\r\nplaying
+        with a dog can elevate levels of serotonin and\r\ndopamine \u2014 nerve transmitters
+        that are known to have\r\npleasurable and calming properties.\r\nGood for
+        the Heart: Heart attack patients who have\r\npets survive longer than those
+        without, according to\r\nseveral studies.\r\n\r\n\tDAVIS, J. L. Dispon\xEDvel
+        em: www.webmd.com.\r\n\t\tAcesso em: 21 abr. 2013 (adaptado).\r\n\r\nAo discutir
+        sobre a influ\xEAncia de animais de estima\xE7\xE3o no bem-estar do ser humano,
+        a autora, a fim de fortalecer seus argumentos, utiliza palavras e express\xF5es
+        como research, a growing number of research e several studies com o objetivo
+        de\r\n\r\nA) mostrar que animais de estima\xE7\xE3o ajudam na cura de doen\xE7as
+        como alergias e asma.\r\n\r\nB) convencer sobre os benef\xEDcios da ado\xE7\xE3o
+        de animais de estima\xE7\xE3o para a sa\xFAde.\r\n\r\nC) fornecer dados sobre
+        os impactos de animais de estima\xE7\xE3o nas rela\xE7\xF5es amorosas.\r\n\r\nD)
+        explicar como o contato com animais de estima\xE7\xE3o pode prevenir ataques
+        card\xEDacos.\r\n\r\nE) esclarecer sobre o modo como idosos devem se relacionar
+        com animais de estima\xE7\xE3o."
+      objectReference: {fileID: 0}
+    - target: {fileID: 7801214400672754914, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7801214400699793115, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: m_text
+      value: "Quest\xE3o 15\r\n\r\n\r\nO Instituto de Arte de Chicago disponibilizou
+        para visualiza\xE7\xE3o on-line, compartilhamento ou download (sob licen\xE7a
+        Creative Commons), 44 mil imagens de obras de arte em alt\xEDssima resolu\xE7\xE3o,
+        al\xE9m de livros, estudos e pesquisas sobre a hist\xF3ria da arte.\r\nPara
+        o historiador da arte, Bendor Grosvenor, o sucesso das cole\xE7\xF5es on-line
+        de acesso aberto, al\xE9m de democratizar a arte, vem ajudando a formar um
+        novo p\xFAblico museol\xF3gico. Grosvenor acredita que quanto mais pessoas
+        forem expostas \xE0 arte on-line, mais visitas pessoais acontecer\xE3o aos
+        museus.\r\nA cole\xE7\xE3o est\xE1 dispon\xEDvel em seis categorias: paisagens
+        urbanas, impressionismo, essenciais, arte africana, moda e animais. Tamb\xE9m
+        \xE9 poss\xEDvel pesquisar pelo nome da obra, estilo, autor ou per\xEDodo.
+        Para navegar pela imagem em alta defini\xE7\xE3o, basta clicar sobre ela
+        e utilizar a ferramenta de zoom. Para fazer o download, dispon\xEDvel para
+        obras de dom\xEDnio p\xFAblico, \xE9 preciso utilizar a seta localizada do
+        lado inferior direito da imagem.\r\n\r\nDispon\xEDvel em: www.revistabula.com.\r\nAcesso
+        em: 5 dez. 2018 (adaptado).\r\n\r\nA fun\xE7\xE3o da linguagem que predomina
+        nesse texto se caracteriza por\r\n\r\n\r\nA) evidenciar a subjetividade da
+        reportagem com base na fala do historiador de arte.\r\n\r\nB) convencer o
+        leitor a fazer o acesso on-line, levando-o a conhecer as obras de arte.\r\n\r\nC)
+        informar sobre o acesso \xE0s imagens por meio da descri\xE7\xE3o do modo
+        como acess\xE1-las.\r\n\r\nD) estabelecer interlocu\xE7\xE3o com o leitor,
+        orientando-o a fazer o download das obras de arte.\r\n\r\nE) enaltecer a
+        arte, buscando populariz\xE1-la por meio da possibilidade de visualiza\xE7\xE3o
+        on-line."
+      objectReference: {fileID: 0}
+    - target: {fileID: 7801214400712452470, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7801214400740657992, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: m_text
+      value: "Quest\xE3o 11\r\n\r\nEsporte e cultura: an\xE1lise acerca da esportiviza\xE7\xE3o
+        de pr\xE1ticas corporais nos jogos ind\xEDgenas\r\n\r\nNos Jogos dos Povos
+        Ind\xEDgenas, observa-se que as pr\xE1ticas corporais realizadas envolvem
+        elementos tradicionais (como as pinturas e adornos corporais) e modernos
+        (como a regulamenta\xE7\xE3o, a fiscaliza\xE7\xE3o e a padroniza\xE7\xE3o).
+        O arco e flecha e a lan\xE7a, por exemplo, s\xE3o instrumentos tradicionalmente
+        utilizados para a ca\xE7a e a defesa da comunidade na aldeia. Na ocasi\xE3o
+        do evento, esses artefatos foram produzidos pela pr\xF3pria etnia, por\xE9m
+        sua estrutura\xE7\xE3o como \u201Cmodalidade esportiva\u201D promoveu uma
+        semelhan\xE7a entre as t\xE9cnicas apresentadas, com o sentido \xFAnico da
+        competi\xE7\xE3o.\r\n\r\nALMEIDA, A. J. M.; SUASSUNA, D. M. F. A. Pensar
+        a pr\xE1tica, n. 1, jan.-abr. 2010 (adaptado).\r\n\r\nA rela\xE7\xE3o entre
+        os elementos tradicionais e modernos nos Jogos dos Povos Ind\xEDgenas desencadeou
+        a\r\n\r\n\r\nA) padroniza\xE7\xE3o de pinturas e adornos corporais.\r\n\r\nB)
+        sobreposi\xE7\xE3o de elementos tradicionais sobre os modernos.\r\n\r\nC)
+        individua\xE7\xE3o das t\xE9cnicas apresentadas em diferentes modalidades.\r\n\r\nD)
+        legitima\xE7\xE3o das pr\xE1ticas corporais ind\xEDgenas como modalidade
+        esportiva.\r\n\r\nE) preserva\xE7\xE3o dos significados pr\xF3prios das pr\xE1ticas
+        corporais em cada cultura."
+      objectReference: {fileID: 0}
+    - target: {fileID: 7801214400766056817, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7801214400780390108, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: m_text
+      value: "Quest\xE3o 19\r\n\r\nExpostos na web desde a gravidez\r\n\r\nMais da
+        metade das m\xE3es e um ter\xE7o dos pais ouvidos em uma pesquisa sobre compartilhamento
+        paterno em m\xEDdias sociais discutem nas redes sociais sobre a educa\xE7\xE3o
+        dos filhos. Muitos s\xE3o pais e m\xE3es de primeira viagem, frutos da gera\xE7\xE3o
+        Y (que nasceu junto com a internet) e usam esses canais para saberem que
+        n\xE3o est\xE3o sozinhos na empreitada de educar uma crian\xE7a. H\xE1, contudo,
+        um risco no modo como as pessoas est\xE3o compartilhando essas experi\xEAncias.
+        \xC9 a chamada exposi\xE7\xE3o parental exagerada, alertam os pesquisadores.\r\nDe
+        acordo com os especialistas no assunto, se voc\xEA compartilha uma foto ou
+        v\xEDdeo do seu filho pequeno fazendo algo rid\xEDculo, por achar engra\xE7adinho,
+        quando a crian\xE7a tiver seus 11, 12 anos, pode se sentir constrangida.
+        A autoconsci\xEAncia vem com a idade.\r\nA exibi\xE7\xE3o da privacidade
+        dos filhos come\xE7a a assumir uma caracter\xEDstica de linha do tempo e
+        eles n\xE3o participaram da aprova\xE7\xE3o ou recusa quanto \xE0 veicula\xE7\xE3o
+        desses conte\xFAdos. Assim, quando a crian\xE7a cresce, sua privacidade pode
+        j\xE1 estar violada.\r\n\r\n\tOTONI, A. C. O Globo, 31 mar. 2015 (adaptado).\r\n\r\nSobre
+        o compartilhamento parental excessivo em m\xEDdias sociais, o texto destaca
+        como impacto o(a)\r\n\r\n\r\nA) interfer\xEAncia das novas tecnologias na
+        comunica\xE7\xE3o entre pais e filhos.\r\n\r\nB) desaten\xE7\xE3o dos pais
+        em rela\xE7\xE3o ao comportamento dos filhos na internet.\r\n\r\nC) distanciamento
+        na rela\xE7\xE3o entre pais e filhos provocado pelo uso das redes sociais.\r\n\r\nD)
+        fortalecimento das redes de rela\xE7\xF5es decorrente da troca de experi\xEAncias
+        entre as fam\xEDlias.\r\n\r\nE) desrespeito \xE0 intimidade das crian\xE7as
+        cujas imagens t\xEAm sido divulgadas nas redes sociais."
+      objectReference: {fileID: 0}
+    - target: {fileID: 7801214400804641933, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7801214400860396945, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: m_text
+      value: "Quest\xE3o 16\r\n\r\nEd Mort s\xF3 vai\r\n\r\nMort. Ed Mort. Detetive
+        particular. Est\xE1 na plaqueta. Tenho um escrit\xF3rio numa galeria de Copacabana
+        entre um fliperama e uma loja de carimbos. D\xE1 s\xF3 para o essencial,
+        um telefone mudo e um cinzeiro. Mas insisto numa mesa e numa cadeira. Apesar
+        do protesto das baratas. Elas n\xE3o vencer\xE3o. Comprei um jogo de m\xE1scaras.
+        No meu trabalho o disfarce \xE9 essencial. Para escapar dos credores. Outro
+        dia entrei na sala e vi a cara do King Kong andando pelo ch\xE3o. As baratas
+        estavam roubando as m\xE1scaras. Espisoteei meia d\xFAzia. As outras atacaram
+        a mesa. Consegui salvar a minha Bic e o jornal. O jornal era novo, tinha
+        s\xF3 uma semana. Mas elas levaram a agenda. Sa\xED ganhando. A agenda estava
+        em branco. Meu \xFAltimo caso fora com a funcion\xE1ria do Er\xF3tica, a
+        primeira \xF3tica da cidade com balconista topless. Acabara mal. Mort. Ed
+        Mort. Est\xE1 na plaqueta.\r\n\r\nVERISSIMO, L. F. Ed Mort: todas as hist\xF3rias.\r\nPorto
+        Alegre: L&PM, 1997 (adaptado).\r\n\r\nNessa cr\xF4nica, o efeito de humor
+        \xE9 basicamente constru\xEDdo por uma\r\n\r\n\r\nA) segmenta\xE7\xE3o de
+        enunciados baseada na descri\xE7\xE3o dos h\xE1bitos do personagem.\r\n\r\nB)
+        ordena\xE7\xE3o dos constituintes oracionais na qual se destaca o n\xFAcleo
+        verbal.\r\n\r\nC) estrutura composicional caracterizada pelo arranjo singular
+        dos per\xEDodos.\r\n\r\nD) sequencia\xE7\xE3o narrativa na qual se articulam
+        eventos absurdos.\r\n\r\nE) sele\xE7\xE3o lexical na qual predominam informa\xE7\xF5es
+        redundantes."
+      objectReference: {fileID: 0}
+    - target: {fileID: 7801214400870923047, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: m_text
+      value: "Quest\xE3o 09\r\n\r\nM\xEDdias: aliadas ou inimigas da educa\xE7\xE3o
+        f\xEDsica escolar?\r\n\r\nNo caso do esporte, a media\xE7\xE3o efetuada pela
+        c\xE2mera de TV construiu uma nova modalidade de consumo: o esporte telespet\xE1culo,
+        realidade textual relativamente aut\xF4noma face \xE0 pr\xE1tica \u201Creal\u201D
+        do esporte, constru\xEDda pela codifica\xE7\xE3o e media\xE7\xE3o dos eventos
+        esportivos efetuados pelo enquadramento, edi\xE7\xE3o das imagens e coment\xE1rios,
+        interpretando para o espectador o que ele est\xE1 vendo. Esse fen\xF4meno
+        tende a valorizar a forma em rela\xE7\xE3o ao conte\xFAdo, e para tal faz
+        uso privilegiado da linguagem audiovisual com \xEAnfase na imagem cujas possibilidades
+        s\xE3o levadas cada vez mais adiante, em decorr\xEAncia dos avan\xE7os tecnol\xF3gicos.
+        Por outro lado, a narra\xE7\xE3o esportiva prop\xF5e uma concep\xE7\xE3o
+        hegem\xF4nica de esporte: esporte \xE9 esfor\xE7o m\xE1ximo, busca da vit\xF3ria,
+        dinheiro... O pre\xE7o que se paga por sua espetaculariza\xE7\xE3o \xE9 a
+        fragmenta\xE7\xE3o do fen\xF4meno esportivo. A experi\xEAncia global do ser-atleta
+        \xE9 modificada: a sociabiliza\xE7\xE3o no confronto e a ludicidade n\xE3o
+        s\xE3o viv\xEAncias privilegiadas no enfoque das m\xEDdias, mas as eventuais
+        manifesta\xE7\xF5es de viol\xEAncia,em partidas de futebol, por exemplo,
+        s\xE3o exibidas e reexibidas em todo o mundo.\r\n\r\nBETTI, M. Motriz, n.
+        2, jul.-dez. 2001 (adaptado).\r\n\r\nA reflex\xE3o trazida pelo texto, que
+        aborda o esporte telespet\xE1culo, est\xE1 fundamentada na\r\n\r\n\r\nA)
+        distor\xE7\xE3o da experi\xEAncia do ser-atleta para os espectadores.\r\n\r\nB)
+        interpreta\xE7\xE3o dos espectadores sobre o conte\xFAdo transmitido.\r\n\r\nC)
+        utiliza\xE7\xE3o de equipamentos audiovisuais de \xFAltima gera\xE7\xE3o.\r\n\r\nD)
+        valoriza\xE7\xE3o de uma vis\xE3o ampliada do esporte.\r\n\r\nE) equipara\xE7\xE3o
+        entre a forma e o conte\xFAdo."
+      objectReference: {fileID: 0}
+    - target: {fileID: 7801214400928414267, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7801214401250908444, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7801214401317781174, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: m_text
+      value: "Quest\xE3o 13\r\n\r\nHELO\xCDSA: Faz versos?\r\nPINOTE: Sendo preciso...
+        Quadrinhas... Acr\xF3sticos...\r\nSonetos... Reclames.\r\nHELO\xCDSA: Futuristas?\r\nPINOTE:
+        N\xE3o senhora! Eu j\xE1 fui futurista.\r\nCheguei a acreditar na independ\xEAncia...
+        Mas foi\r\numa trag\xE9dia! Come\xE7aram a me tratar de maluco.\r\nA me olhar
+        de esguelha. A n\xE3o me receber mais.\r\nAs crian\xE7as choravam em casa.
+        Tenho tr\xEAs filhos.\r\nNo jornal tamb\xE9m n\xE3o pagavam, devido \xE0
+        crise.\r\nPrecisei viver de bicos. Ah! Reneguei tudo. Arranjei\r\naquele
+        instrumento (Mostra a faca) e fiquei passadista.\r\n\r\nANDRADE, O. O rei
+        da vela. S\xE3o Paulo: Globo, 2003\r\n\r\nO fragmento da pe\xE7a teatral
+        de Oswald de Andrade ironiza a rea\xE7\xE3o da sociedade brasileira dos anos
+        1930 diante de determinada vanguarda europeia. Nessa vis\xE3o, atribui-se
+        ao p\xFAblico leitor uma postura\r\n\r\n\r\nA) preconceituosa, ao evitar
+        formas po\xE9ticas simplificadas.\r\n\r\nB) conservadora, ao optar por modelos
+        consagrados.\r\n\r\nC) preciosista, ao preferir modelos liter\xE1rios eruditos.\r\n\r\nD)
+        nacionalista, ao negar modelos estrangeiros.\r\n\r\nE) ecl\xE9tica, ao aceitar
+        diversos estilos po\xE9ticos.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7801214401391451378, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: m_text
+      value: "Quest\xE3o 18\r\n\r\nO que \xE9 software livre\r\n\r\nSoftware livre
+        \xE9 qualquer programa de computador constru\xEDdo de forma colaborativa,
+        via internet, por uma comunidade internacional de desenvolvedores independentes.
+        S\xE3o centenas de milhares de hackers, que negam sua associa\xE7\xE3o com
+        os \u201Cvioladores de seguran\xE7a\u201D. Esses desenvolvedores de software
+        se recusam a reconhecer o significado pejorativo do termo e continuam usando
+        a palavra hacker para indicar \u201Calgu\xE9m que ama programar e que gosta
+        de ser h\xE1bil e engenhoso\u201D. Al\xE9m disso, esses programas s\xE3o
+        entregues \xE0 comunidade com o c\xF3digo fonte aberto e dispon\xEDvel, permitindo
+        que a ideia original possa ser aperfei\xE7oada e devolvida novamente \xE0
+        comunidade. Nos programas convencionais, o c\xF3digo de programa\xE7\xE3o
+        \xE9 secreto e de propriedade da empresa que o desenvolveu, sendo quase imposs\xEDvel
+        decifrar a programa\xE7\xE3o.\r\n\r\nO que est\xE1 em jogo \xE9 o controle
+        da inova\xE7\xE3o tecnol\xF3gica. Software livre \xE9 uma quest\xE3o de liberdade
+        de express\xE3o e n\xE3o apenas uma rela\xE7\xE3o econ\xF4mica. Hoje existem
+        milhares de programas alternativos constru\xEDdos dessa forma e uma comunidade
+        de usu\xE1rios com milh\xF5es de membros no mundo.\r\n\r\n\tBRANCO, M. Software
+        livre e desenvolvimento social e econ\xF3mico. In: CASTELLS, M.; CARDOSO,
+        G. (Org). A sociedade em rede: do conhecimento \xE0 ac\xE7\xE3o pol\xEDtica.
+        Lisboa: Imprensa Nacional, 2005 (adaptado).\r\n\r\nA cria\xE7\xE3o de softwares
+        livres contribui para a produ\xE7\xE3o do conhecimento na sociedade porque\r\n\r\n\r\nA)
+        democratiza o acesso a produtos constru\xEDdos coletivamente.\r\n\r\nB) complexifica
+        os sistemas operacionais dispon\xEDveis no mercado.\r\n\r\nC) qualifica um
+        maior n\xFAmero de pessoas para o uso de tecnologias.\r\n\r\nD) possibilita
+        a coleta de dados confidenciais para seus desenvolvedores.\r\n\r\nE) insere
+        profissionalmente os hackers na \xE1rea de inova\xE7\xE3o tecnol\xF3gica.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7801214401458256728, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7801214401897052782, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: m_text
+      value: "Quest\xE3o 07\r\n\r\nUm amor desse\r\nEra 24 horas lado a lado\r\nUm
+        radar na pele, aquele sentimento alucinado\r\nCora\xE7\xE3o batia acelerado\r\nBastava
+        um olhar pra eu entender\r\nQue era hora de me entregar pra voc\xEA\r\nPalavras
+        n\xE3o faziam falta mais\r\nAh, s\xF3 de lembrar do seu perfume\r\nQue arrepio,
+        que calafrio\r\nQue o meu corpo sente\r\nNem que eu queira, eu te apago da
+        minha mente\r\nAh, esse amor\r\nDeixou marcas no meu corpo\r\nAh, esse amor\r\nS\xF3
+        de pensar, eu grito, eu quase morro\r\n\r\nAZEVEDO, N.; LE\xC3O, W.; QUADROS,
+        R. Cora\xE7\xE3o pede socorro.\r\nRio de Janeiro: Som Livre, 2018 (fragmento).\r\n\r\nEssa
+        letra de can\xE7\xE3o foi composta especialmente para uma campanha de combate
+        \xE0 viol\xEAncia contra as mulheres, buscando conscientiz\xE1-las acerca
+        do limite entre relacionamento amoroso e relacionamento abusivo. Para tanto,
+        a estrat\xE9gia empregada na letra \xE9 a\r\n\r\n\r\nA) revela\xE7\xE3o da
+        submiss\xE3o da mulher \xE0 situa\xE7\xE3o de viol\xEAncia, que muitas vezes
+        a leva \xE0 morte.\r\n\r\nB) \xEAnfase na necessidade de se ouvirem os apelos
+        da mulher agredida, que continuamente pede socorro.\r\n\r\nC) explora\xE7\xE3o
+        de situa\xE7\xE3o de duplo sentido, que mostra que atos de domina\xE7\xE3o
+        e viol\xEAncia n\xE3o configuram amor.\r\n\r\nD) divulga\xE7\xE3o da import\xE2ncia
+        de denunciar a viol\xEAncia dom\xE9stica, que atinge um grande n\xFAmero
+        de mulheres no pa\xEDs.\r\n\r\nE) naturaliza\xE7\xE3o de situa\xE7\xF5es
+        opressivas, que fazem parte da vida de mulheres que vivem em uma sociedade
+        patriarcal."
+      objectReference: {fileID: 0}
+    - target: {fileID: 7801214401917654891, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: m_text
+      value: "Quest\xE3o 08\r\nMeu caro Sherlock Holmes, algo horr\xEDvel aconteceu
+        \xE0s tr\xEAs da manh\xE3 no Jardim Lauriston. Nosso homem que estava na
+        vigia viu uma luz \xE0s duas da manh\xE3 saindo de uma casa vazia. Quando
+        se aproximou, encontrou a porta aberta e, na sala da frente, o corpo de um
+        cavalheiro bem vestido. Os cart\xF5es que estavam em seu bolso tinham o nome
+        de Enoch J. Drebber, Cleveland, Ohio, EUA. N\xE3o houve assalto e nosso homem
+        n\xE3o conseguiu encontrar algo que indicasse como ele morreu. N\xE3o havia
+        marcas de sangue, nem feridas nele. N\xE3o sabemos como ele entrou na casa
+        vazia. Na verdade, todo assunto \xE9 um quebra-cabe\xE7a sem fim. Se puder
+        vir at\xE9 a casa seria \xF3timo, se n\xE3o, eu lhe conto os detalhes e gostaria
+        muito de saber sua opini\xE3o. Atenciosamente, Tobias Gregson.\r\n\r\nDOYLE,
+        A. C. Um estudo em vermelho. Cotia: P\xE9 de Letra, 2017.\r\n\r\nConsiderando
+        o objetivo da carta de Tobias Gregson, a sequ\xEAncia de enunciados negativos
+        presente nesse texto tem a fun\xE7\xE3o de\r\n\r\n\r\nA) restringir a investiga\xE7\xE3o,
+        deixando-a sob a responsabilidade do autor da carta.\r\n\r\nB) refutar poss\xEDveis
+        causas da morte do cavalheiro, auxiliando na investiga\xE7\xE3o.\r\n\r\nC)
+        identificar o local da cena do crime, localizando-o no Jardim Lauriston.\r\n\r\nD)
+        introduzir o destinat\xE1rio da carta, caracterizando sua personalidade.\r\n\r\nE)
+        apresentar o vigia, incluindo-o entre os suspeitos do assassinato."
+      objectReference: {fileID: 0}
+    - target: {fileID: 7801214401963482564, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7801214401985081537, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8639892434294317358, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: rightAnswer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8639892434574668028, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: rightAnswer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8639892434798187885, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: rightAnswer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8639892434988791593, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: rightAnswer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8639892435054506129, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: rightAnswer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8639892435370453760, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: rightAnswer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8639892435416916071, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: rightAnswer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8639892435526473116, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: rightAnswer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8639892435553587208, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: rightAnswer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8639892435556451031, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: rightAnswer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8639892435788470604, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: rightAnswer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750377431886285065, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750377431886285065, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 51.069695
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750377431886285065, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 134.65063
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750377431886285065, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -259.50354
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750377431886285065, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750377431886285065, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750377431886285065, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750377431886285065, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750377431886285065, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750377431886285065, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8750377431886285065, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8956662000224257683, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: rightAnswer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8956662002305127412, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: rightAnswer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9179678643191010047, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: rightAnswer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9179678643221042947, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: rightAnswer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9179678643266004740, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: rightAnswer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9179678644166459059, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: rightAnswer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9179678644684469546, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: rightAnswer
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 40d2d0f7ab4711544b953074156d82df, type: 3}
+--- !u!1 &973610231
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 973610234}
+  - component: {fileID: 973610233}
+  - component: {fileID: 973610232}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &973610232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 973610231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &973610233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 973610231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &973610234
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 973610231}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
