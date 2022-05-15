@@ -23,6 +23,9 @@ public class Gameplay : MonoBehaviour
     //Data:
     public GameData gameData;
 
+    //Canvas (UI):
+    public Canvas ui;
+
     
     // Start is called before the first frame update
     void Start()
@@ -47,6 +50,9 @@ public class Gameplay : MonoBehaviour
         //Taking time txt:
         timeTXT = GameObject.Find("Time_TXT").GetComponent<Text>();
         time = startTime;
+
+        //Taking UI scrip:
+        ui = GameObject.Find("UI").GetComponent<Canvas>();
     }
     
     // Update is called once per frame
@@ -69,9 +75,35 @@ public class Gameplay : MonoBehaviour
     //Next question:
     public void NextQuestion()
     {
+        //Effect:
+        ui.EffecCorrect();
+
+        //Score
         questions[questionsCont].gameObject.SetActive(false);
         questionsCont++;
         score = score + 10;
+        if(questionsCont <= questionsMax)
+        {
+            questions[questionsCont].gameObject.SetActive(true);
+            time = startTime;
+        }
+        else
+        {
+            //Active painel WIN
+            painels.Win();
+
+            if(score > gameData.maxScore)
+            {
+                PlayerPrefs.SetInt(gameData.nameQuiz, score);
+            }
+        }
+    }
+
+    public void SkipQuestion()
+    {
+        questions[questionsCont].gameObject.SetActive(false);
+        questionsCont++;
+        score = score + 0;
         if(questionsCont <= questionsMax)
         {
             questions[questionsCont].gameObject.SetActive(true);

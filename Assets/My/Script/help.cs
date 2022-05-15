@@ -17,12 +17,11 @@ public class help : MonoBehaviour
         {
             print("true");
             gameplay = GameObject.Find("Player").GetComponent<Gameplay>();
-            gameplay.score = gameplay.score - 10;
             
             iconHelp[cont].gameObject.SetActive(false);
             cont++;
 
-            gameplay.NextQuestion();
+            gameplay.SkipQuestion();
         }
     }
 }
