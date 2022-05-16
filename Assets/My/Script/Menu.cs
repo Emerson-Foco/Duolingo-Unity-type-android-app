@@ -9,6 +9,7 @@ public class Menu : MonoBehaviour
     //Variables:
     public GameObject menuBar;
     public GameObject store;
+    public GameObject credits;
     
     //Functions:
     public void Play()
@@ -41,7 +42,9 @@ public class Menu : MonoBehaviour
 
     public void MenuInit()
     {
+        //Deactivate others:
         store.SetActive(false);
+        credits.SetActive(false);
         MenuBar();
     }
 
@@ -49,5 +52,17 @@ public class Menu : MonoBehaviour
     {
         store.SetActive(true);
         MenuBar();
+        
+        //Deactivate others:
+        credits.SetActive(false);
+    }
+
+    public void Credits()
+    {
+        credits.SetActive(true);
+        MenuBar();
+
+        //Deactivate others:
+        store.SetActive(false);
     }
 }
