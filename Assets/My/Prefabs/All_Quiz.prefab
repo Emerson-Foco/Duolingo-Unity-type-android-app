@@ -3273,6 +3273,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   effect_correct: {fileID: 1996579638813852771, guid: d1b1d398e422a534088c2e5445ac5edc,
     type: 3}
+  effect_error: {fileID: 1996579638813852771, guid: d55d230278f487a47884e427d3bb41c9,
+    type: 3}
+  effect_skip: {fileID: 1996579638813852771, guid: d78488f5ea6b2b4439ef3360a8a3f422,
+    type: 3}
   ui: {fileID: 2323903001338036287}
 --- !u!222 &7487269480634211677
 CanvasRenderer:

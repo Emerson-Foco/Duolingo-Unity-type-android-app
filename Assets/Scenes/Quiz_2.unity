@@ -199,6 +199,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: All_Quiz
       objectReference: {fileID: 0}
+    - target: {fileID: 6802015507617041430, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7487269479230294493, guid: 40d2d0f7ab4711544b953074156d82df,
         type: 3}
       propertyPath: m_LocalPosition.z
@@ -439,6 +444,12 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8429043472446067203, guid: 40d2d0f7ab4711544b953074156d82df,
+        type: 3}
+      propertyPath: effect_skip
+      value: 
+      objectReference: {fileID: 1996579638813852771, guid: d78488f5ea6b2b4439ef3360a8a3f422,
+        type: 3}
     - target: {fileID: 8639892434294317358, guid: 40d2d0f7ab4711544b953074156d82df,
         type: 3}
       propertyPath: rightAnswer

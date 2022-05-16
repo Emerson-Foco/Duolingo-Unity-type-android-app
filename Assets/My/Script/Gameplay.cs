@@ -76,7 +76,7 @@ public class Gameplay : MonoBehaviour
     public void NextQuestion()
     {
         //Effect:
-        ui.EffecCorrect();
+        ui.EffectCorrect();
 
         //Score
         questions[questionsCont].gameObject.SetActive(false);
@@ -101,6 +101,9 @@ public class Gameplay : MonoBehaviour
 
     public void SkipQuestion()
     {
+        //Effect:
+        ui.EffectSkip();
+
         questions[questionsCont].gameObject.SetActive(false);
         questionsCont++;
         score = score + 0;
@@ -124,6 +127,9 @@ public class Gameplay : MonoBehaviour
     //Lost:
     public void Lost()
     {
+        //Effect:
+        ui.EffectError();
+
         painels.Lost();
             
         if(score > gameData.maxScore)
